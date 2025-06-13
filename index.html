@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira Virtual de Produtos Rurais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de navegação -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" onclick="showSection('home')">Tela Inicial</a></li>
+            <li><a href="#" onclick="showSection('receitas')">Receitas</a></li>
+            <li><a href="#" onclick="showSection('produtos')">Produtos</a></li>
+            <li><a href="#" onclick="showSection('curiosidades')">Curiosidades</a></li>
+            <li><a href="#" onclick="showSection('calendario')">Calendário</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seções -->
+    <section id="home" class="section active">
+        <h1>Bem-vindo à Feira Virtual de Produtos Rurais!</h1>
+        <p>Explore nossos produtos frescos e naturais do campo.</p>
+    </section>
+
+    <section id="receitas" class="section">
+        <h2>Receitas do Campo</h2>
+        <p>Aprenda a fazer pratos deliciosos com ingredientes frescos.</p>
+    </section>
+
+    <section id="produtos" class="section">
+        <h2>Produtos Rurais</h2>
+        <div class="product-card">
+            <img src="produto1.jpg" alt="Produto 1">
+            <h3>Mel de Abelha</h3>
+            <p>Descrição: Mel natural, colhido diretamente da colmeia.</p>
+            <p>Preço: R$ 20,00</p>
+        </div>
+        <div class="product-card">
+            <img src="produto2.jpg" alt="Produto 2">
+            <h3>Queijo Artesanal</h3>
+            <p>Descrição: Queijo artesanal, feito com leite fresco.</p>
+            <p>Preço: R$ 35,00</p>
+        </div>
+    </section>
+
+    <section id="curiosidades" class="section">
+        <h2>Curiosidades do Campo</h2>
+        <p>Descubra curiosidades interessantes sobre a vida rural.</p>
+    </section>
+
+    <section id="calendario" class="section">
+        <h2>Calendário de Atividades</h2>
+        <p>Acompanhe as principais atividades e eventos da feira.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
